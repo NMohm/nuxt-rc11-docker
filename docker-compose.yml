@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+ node:
+  container_name: nuxt-rc11_test
+  image: nuxt_rc11_test:latest
+  build: ./
+  ports:
+   - 3000:3000
